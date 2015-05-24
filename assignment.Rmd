@@ -140,7 +140,7 @@ accuracy
 confusionMatrix(predictions,testing$classe)
 ```
 
-We reach an accuracy of 99.81% on the held-out set. More specifically, the sensitivity and specificity per class is, respectively: A 0.9988/0.9993, B 0.9939/0.9992, C 0.9981/0.9992, D 1.0/1.0, E 1.0/1.0. 
+We reach an accuracy of 99.81% on the held-out set. More specifically, the sensitivity and specificity per class is, respectively: A 0.9976/0.9974, B 0.9763/0.9949, C 0.9795/0.9920, D 0.9741/0.9986, E 0.9935/0.9994. 
 
 Now we run it on the real test data and write the predictions to the files. Submitting the test run on the website shows that we actually got an accuracy of 100% (with just 20 features). Thus, our estimate carried nicely over. Yeah!
 
